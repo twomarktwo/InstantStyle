@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "style_image_path": "images\\oliver-jeffers-1.jpg",
+    "source_image_path": "source-images\\Ray Charles.jpg",
+    "prompt": null,
+    "scale": 1.0,
+    "control_scale": 0.5,
+    "seed": 42,
+    "negative_prompt": "text, watermark, lowres, low quality, worst quality, deformed, glitch, low contrast, noisy, saturation, blurry",
+    "guidance_scale": 5,
+    "num_samples": 1,
+    "num_inference_steps": 20,
+    "neg_content_prompt": "",
+    "neg_content_scale": 0
+  },
+  "result_image_path": "Ray Charles-3668907d"
+}

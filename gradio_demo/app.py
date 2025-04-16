@@ -20,8 +20,8 @@ dtype = torch.float16 if str(device).__contains__("cuda") else torch.float32
 
 # initialization
 base_model_path = "stabilityai/stable-diffusion-xl-base-1.0"
-image_encoder_path = "sdxl_models/image_encoder"
-ip_ckpt = "sdxl_models/ip-adapter_sdxl.bin"
+image_encoder_path = "IP-Adapter/sdxl_models/image_encoder"
+ip_ckpt = "IP-Adapter/sdxl_models/ip-adapter_sdxl.bin"
 
 controlnet_path = "diffusers/controlnet-canny-sdxl-1.0"
 controlnet = ControlNetModel.from_pretrained(controlnet_path, use_safetensors=False, torch_dtype=torch.float16).to(device)
